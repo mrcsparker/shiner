@@ -7,3 +7,15 @@ services:
       - "15432:5432"
     environment:
       - POSTGRES_PASSWORD=postgres
+
+  shiny:
+    image: rocker/shiny
+    restart: always
+    ports:
+      - "13838:3838"
+
+  rstudio:
+    image: rocker/rstudio
+    restart: always
+    ports:
+      - "18787:8787"
