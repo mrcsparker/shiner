@@ -7,7 +7,7 @@ Work in progress.  This is the initial build
 
 ## Setup
 
-
+Download Docker from https://www.docker.com
 
 ```bash
 > docker-compose up
@@ -19,8 +19,9 @@ Work in progress.  This is the initial build
 
 http://localhost:18787
 
-Username: rstudio
-Password: rstudio
+* Username: `rstudio`
+* Password: `rstudio`
 
+## Notes
 
 https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image
